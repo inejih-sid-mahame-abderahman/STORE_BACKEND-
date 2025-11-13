@@ -1,3 +1,12 @@
+BASE_URL = http://127.0.0.1:8000/api/
+## Auth API
+
+| Méthode | URL | Description | Auth |
+|---------|-----|-------------|------|
+| POST | http://127.0.0.1:8000/api/auth/register/ | Créer un compte utilisateur | ❌ |
+| POST | http://127.0.0.1:8000/api/auth/login/ | Se connecter et obtenir JWT (access + refresh) | ❌ |
+| POST | http://127.0.0.1:8000/api/auth/token/refresh/ | Rafraîchir un access token avec refresh token | ❌ |
+
 
 ## Products API
 
