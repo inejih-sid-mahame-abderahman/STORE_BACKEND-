@@ -31,6 +31,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     # Auth
     path('api/auth/', include('accounts.urls')),
+path('api/coupons/', include('coupons.urls')),
 
     # API principale
     path('api/', include(router.urls)),
